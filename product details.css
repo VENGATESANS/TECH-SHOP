@@ -1,0 +1,331 @@
+body {
+    background-color:#141414;
+    color:#A9AFC3;
+    font-family:"Poppins", sans-serif;
+    font-weight:650;
+    font-style:normal; 
+}  
+                                     /* Header */
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.header .nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    position: absolute;
+    left:50px;
+}
+.nav{
+    position: absolute;
+    right:150px;
+}
+.para h2{
+    opacity:0.58;
+    margin-top: -30px; 
+}
+.fa{
+    padding: 20px;   
+    color:rgb(124, 123, 139); 
+}
+                    /* tooltip */
+ .tooltip,.tooltip1{
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 80px;
+    background-color:#151819; 
+    color:#8C93A2;
+    text-align: center;
+    border:1px solid  #48494a;
+    border-radius:4px;
+    padding:2px;
+                                /* position tooltip */
+    position: absolute;
+    z-index:1;
+    top:100%;
+    left:60%;
+    margin-left:-60px;
+}
+.tooltip:hover .tooltiptext,.tooltip1:hover .tooltiptext1{
+   visibility: visible;
+}
+                
+.tooltip1 .tooltiptext1{
+   visibility: hidden;
+   width: 290px;
+    background-color:#151819; 
+   color:#8C93A2;
+   text-align: center;
+   border:1px solid  #48494a;
+   border-radius:4px;
+   padding:2px;
+                                /* position tooltip */
+   position: absolute;
+   z-index:1;
+   top:100%;
+   left:60%;
+   margin-left:-120px;
+} 
+.Loginbutton{
+    background-color:#141414;
+    border:1px solid white;
+    color:white;
+    border-radius:2px;
+    width:100px;
+    height:36px;
+ }
+.container01{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.itemno1{
+    border:2px solid white;
+    background-color:#141414;
+    width: 110px;;
+    align-items: center;
+    padding: 6px;
+    margin: 5%;
+    border-radius:3px;
+}
+.itemno2{
+    border:1px solid rgb(172, 167, 167);
+    background-color:#141414;
+    width: 110px;;
+    align-items: center;
+    padding: 6px;
+    margin: 5%;
+    border-radius:3px;
+
+}
+.itemcenter{
+    position: relative;
+    right:125px;
+    bottom: 20px;
+}
+.fa-star{
+    color:#D00404;
+}
+.valuecost{
+    word-spacing:5px;
+}
+.greenletter{
+    color: green;
+}
+.instock {
+    padding: 5px;
+    color:white;
+    background-color: rgb(124, 202, 7);
+    border: 1px solid greenyellow;
+    justify-content: left;
+    margin: 1px;
+    position: relative;
+    left:180px;
+    width:100px;
+}
+.EMIbutton,.Cashbackbutton{
+    margin: 5px;
+    padding: 4px;;
+    width:200px;
+}
+.itemnav1,.itemnav2{
+    text-align:right;
+    margin:20px;
+}
+.addtocart1{
+    padding: 10px;
+    color:white;
+    width: 150px;
+    background-color: #D00404;
+    border-radius: 3px;
+    border: 1px solid #D00404;
+}
+.itemnav{
+    display:flex;
+    justify-content: center;
+}
+.itemnav2:hover,.itemnav1:hover{
+    background-color: #D00404;
+    border-radius: 3px;
+    border: 1px solid #D00404; 
+    padding:2px; 
+    color: white;
+    width: 115px;
+    text-align: center;
+}
+.specification{
+    display:grid;
+    grid-template-columns:repeat(2,1fr); 
+} 
+.specificationpara1{
+    padding: 5px;
+    margin: 10px;
+}
+.specificationpara{   
+    position: relative;
+    right:175px;
+} 
+.containerrelatedproducts,.topicrelatedproducts,.ouradvantages{
+    text-align: center;
+    padding: 20px; 
+}
+.relatedproducts{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    margin: 15px; 
+    padding: 10px;
+}
+.products01{
+    border: 1px solid gray;
+    margin: 4px;
+    border-radius:3px;
+}
+.img1{
+    padding: 10px;
+    
+}
+.img1:hover,.img2:hover,.img3:hover,.itemno1:hover,.itemno2:hover,.itemcenter:hover{
+    transform: scale(1.12);
+}
+.imgpara01{
+    padding: 16px;
+}
+.cost{
+    word-spacing:6px;
+}
+.Cardbutton{
+    background-color:#D00404;
+    color:white;
+    width: 180px;
+    padding: 13px;
+    text-align: center;
+    border: 1px solid #D00404;   
+    border-radius:3px; 
+}
+.dot{
+    padding: 20px;
+    color:rgb(133, 126, 126);
+    font-size: 30px;
+    border-radius:50px;
+    text-align: center;
+}
+
+.reddot{ 
+    color:#D00404;
+    font-size:30px;
+    border-radius:100%;
+    text-align: center;
+}
+        
+           /* OUR ADVANTAGES */
+.Advantages{
+    text-align: center;
+}
+.additional_benefits{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:100px;
+}
+.express_delivery{
+    width:20%;
+    display:flex;
+    justify-content:space-between;
+}
+.icon_1{
+    width:80%;
+}
+.icon_2{
+    display:flex;
+    align-items:center;
+    color:#D00404;
+    width:30%; 
+    justify-content: center;
+}
+.icon_2 i{
+    font-size:1.9em;
+}
+.icon_3{
+    width:75%;
+    display:flex;
+    flex-direction: column;
+}
+.Advantageshead {
+    font-size:18PX;
+}
+.Advantagespara {
+    font-size:17px;
+}
+                      /* footer */
+.footer{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    padding: 25px;
+    margin: none;
+    background-color: black;
+    color:#A9AFC3;
+}
+.Subscribe{
+    background-color:#D00404;
+    color:white;
+    padding: 7px;
+    width: 100px;
+    border-radius:5px;
+}
+input{
+    width:70%;
+    background-color:black;
+    color:grey;
+    height: 27px;
+    border-radius:4px;
+    border: 2px solid gray;
+}
+.footerline{
+    color:gray;
+    width:98%;
+}
+.footerline {
+    line-height:10px;
+} 
+.footerbody{
+    display:flex;
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.fa-brands{
+    flex:1;
+    padding:16px;
+}  
+.footericon{
+    display: flex;
+    flex:1;
+    padding:9px;
+    justify-content: end;
+    padding:19px;
+}
+.fa-facebook-f{
+    color: #0165E1;
+    width: 5px;
+}
+.fa-instagram{
+    color:#E1306C;
+    width: 5px;
+}
+.fa-twitter{
+    color:#1D9BF0;
+    width: 5px;
+}
+.fa-linkedin-in{
+    color: #0A66C2;
+    width: 5px;
+}

@@ -1,0 +1,75 @@
+*{
+    justify-content: center;
+    background-color:#141414;;
+    color:white;
+}
+*{
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color:#141414; 
+    color:white;
+}
+.Signupborder{
+border:1px solid gray;
+width:30%;
+height:550px;
+justify-self: center;
+position: relative;
+top:65px;
+}   
+.hr1{
+width: 55px;
+position: relative;
+right:88px;
+top:25px;
+}
+.hr2{
+width: 55px;
+position: relative;
+left:88px;
+bottom: 25px;
+
+}
+b{
+    color: azure;
+}
+input[type=text],input[type=email],input[type=password]{
+    border:1px solid gray;
+    text-align:center;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.signup{
+    background-color: rgb(196, 6, 6);
+    width: 210px;
+    padding: 5px;
+    margin: 2px;
+}
+   
+.facebook{   
+    margin: 2px;
+    padding:6px;
+    background-color:rgb(10, 10, 110);
+    width: 20%;
+    position: relative;
+    right:20px;
+}
+.google{
+    margin: 2px ;
+    padding:6px;
+    background-color:rgb(144, 18, 18);
+    width: 20%;
+}
+.twitter{
+    margin: 2px;
+    padding:6px;
+    background-color: rgb(18, 171, 231);
+    width: 20%;
+    position: relative;
+    left:20px;
+}
